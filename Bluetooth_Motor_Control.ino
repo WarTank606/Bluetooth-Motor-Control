@@ -1,16 +1,3 @@
-//  Arduino, HM-10, App Inventor 2
-//
-//  Example Project Part 1: Turn an LED on and off basic
-//  By Martyn Currey. www.martyncurrey.com
-//
-//  Pins
-//  BT VCC to Arduino 5V out. 
-//  BT GND to GND
-//  Arduino D8 (ASS RX) - BT TX no need voltage divider 
-//  Arduino D9 (ASS TX) - BT RX through a voltage divider
-//  Arduino D2 - Resistor + LED
- 
-// https://www.pjrc.com/teensy/td_libs_AltSoftSerial.html
 #include <AltSoftSerial.h>
 AltSoftSerial ASSserial; 
 
